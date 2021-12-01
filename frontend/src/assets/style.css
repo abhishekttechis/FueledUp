@@ -495,7 +495,7 @@ tr .total td {
     margin-left: 1%;
   }
   .pictures p {
-    margin: 1%;
+    font-size: 12px;
   }
   .inside {
     bottom: -13%;
