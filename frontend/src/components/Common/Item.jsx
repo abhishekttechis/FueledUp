@@ -56,7 +56,7 @@ const Item = ({ item }) => {
               <h4>{item.name}</h4>
               <p>{item.description}</p>
               <div class="inside">
-                <p>{item.price}</p>
+                <p>${item.price}</p>
                 {particularCart && particularCart.quantity > 0 ? (
                   <div>
                     <button class="incr-decr">

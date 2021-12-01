@@ -203,7 +203,8 @@ footer {
   left: 0;
   display: flex;
   justify-content: flex-end;
-  padding: 15 px 0;
+
+  padding-top: 0%;
   background-color: #fff;
   z-index: 2;
   border: 1 px solid grey;

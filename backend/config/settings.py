@@ -32,7 +32,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = True
 # CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://127.0.0.1:3000',
-#                         'https://frontend-electric-views.herokuapp.com']
+#                         'https://frontend-fueled.herokuapp.com']
 
 # Application definition
 
@@ -94,24 +94,24 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Heroku Database
 
 # Local Database
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
-
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'dfs111h41od3lg',
-#         'USER': 'pvbxxfdpapdnoo',
-#         'PORT': 5432,
-#         'HOST': 'ec2-34-199-224-49.compute-1.amazonaws.com',
-#         'PASSWORD': 'f42ae0f0e37092b568f0c987848fa9bd03a505cf9b563cc2ed6a8510875fc1ac',
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd4jsagdr6a0ioh',
+        'USER': 'knvddeyyzyoglc',
+        'PORT': 5432,
+        'HOST': 'ec2-34-193-235-32.compute-1.amazonaws.com',
+        'PASSWORD': '29e83e80bf5984518584420934d2e0e3430730db833317bc57d9633d20d05263',
+    }
+}
 
 
 # Heroku PostgreSQL Database
