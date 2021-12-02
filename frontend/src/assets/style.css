@@ -480,10 +480,10 @@ tr .total td {
     margin-top: 14%;
   }
   .text .text2 {
-    font-size: 16px;
+    font-size: 15px;
   }
   .text .text1 {
-    font-size: 36px;
+    font-size: 34px;
   }
   .product {
     height: 85px;
@@ -501,9 +501,8 @@ tr .total td {
     bottom: -13%;
   }
   .inside button {
-    width: 28%;
+    width: 26%;
     height: 26px;
-    margin-top: 4%;
   }
   .title {
     margin-left: 4%;
@@ -518,8 +517,8 @@ tr .total td {
     width: 90px;
   }
   .end button {
-    font-size: 12px;
-    margin-top: 1%;
+    font-size: 11px;
+    margin-top: 2%;
   }
   .end a {
     width: 30%;
@@ -536,9 +535,9 @@ tr .total td {
     left: 18%;
   }
   .form {
-    height: auto;
     width: 75%;
     left: 12%;
+    top: 10%;
   }
   .pop .logo1 {
     font-size: 28px;
@@ -565,6 +564,37 @@ tr .total td {
     height: auto;
     width: 75%;
     left: 12%;
+  }
+  .Sign-In-member {
+    font-size: 14px;
+  }
+  /**************Shipment ************************/
+  .top {
+    height: 100px;
+  }
+  .top p {
+    left: 17%;
+    top: 20%;
+    font-size: 20px;
+  }
+  .shipment {
+    margin-left: 12%;
+  }
+  .details .form {
+    left: 3%;
+  }
+  .details form input {
+    width: auto;
+  }
+  .thanking {
+    margin-left: 12%;
+    padding-top: 7%;
+  }
+  .thanking p {
+    font-size: 14px;
+  }
+  .thanking button {
+    width: 40%;
   }
 }
 @media screen and (min-width: 501px) and (max-width: 750px) {
@@ -611,10 +641,14 @@ tr .total td {
   .end button {
     font-size: 15px;
     margin-top: 10%;
+    margin-left: 30%;
+  }
+  .content .pictures {
+    margin-bottom: 20%;
   }
   /********Sign-Up-page***************/
   .form {
-    height: auto;
+    top: 10%;
     width: 68%;
     left: 15%;
   }
@@ -639,6 +673,26 @@ tr .total td {
   }
   form input {
     padding: 7%;
+  }
+  /******************order page******************/
+  .details form input {
+    width: 60%;
+  }
+  /************ Thank You page ************************/
+  .top p {
+    left: 26%;
+    top: 25%;
+    font-size: 25px;
+  }
+  .thanking p {
+    font-size: 20px;
+  }
+  .thanking {
+    margin-left: 18%;
+  }
+  .thanking button {
+    width: 33%;
+    margin: 10% 22%;
   }
 }
 
@@ -692,6 +746,9 @@ tr .total td {
   .pictures {
     margin-bottom: 20%;
   }
+  .content .pictures {
+    margin-bottom: 18%;
+  }
   /************sing-up-page***********/
   .form {
     height: auto;
@@ -715,5 +772,15 @@ tr .total td {
     width: 46%;
     left: 30%;
     top: 20%;
+  }
+  /************ Thank You page ************************/
+  .top p {
+    left: 28%;
+  }
+  .thanking p {
+    font-size: 22px;
+  }
+  .thanking {
+    margin-left: 23%;
   }
 }
