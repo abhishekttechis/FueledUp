@@ -1,6 +1,6 @@
 # Fueled Up
 ```
-Fueled Up App, with a frontend built in React & Redux and a backend built in Django API.
+Fueled Up App, this is a Prototype of a mini E-comerece app used for online shopping.
 ```
 ## Live Demo
 **This App uses a Heroku free plan, so I am afraid that it takes time to load the pages.**
