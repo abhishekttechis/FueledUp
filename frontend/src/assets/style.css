@@ -72,6 +72,9 @@ body {
   text-decoration: none;
   color: #4a4a4a;
 }
+section.main {
+  margin-bottom: 20%;
+}
 
 /*************** Middle Section ***************/
 .images {
